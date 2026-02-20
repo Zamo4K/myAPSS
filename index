@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Подключаем стили Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net" />
+
+<div class="swiper">
+  <div class="swiper-wrapper">
+    <!-- Карточка объявления -->
+    <div class="swiper-slide">
+        <img src="adv1.jpg" />
+        <h3>Продам гараж</h3>
+        <p>1000$</p>
+    </div>
+    <div class="swiper-slide">Карточка 2</div>
+    <div class="swiper-slide">Карточка 3</div>
+  </div>
+</div>
+
+</body>
+</html>

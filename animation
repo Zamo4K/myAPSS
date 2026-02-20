@@ -1,0 +1,11 @@
+import Swiper from 'https://cdn.jsdelivr.net'
+
+const swiper = new Swiper('.swiper', {
+  effect: 'cards', // Тот самый эффект стопки карточек
+  grabCursor: true,
+  on: {
+    slideChange: function () {
+      console.log('Посмотрели объявление номер: ', this.activeIndex);
+    },
+  },
+});
